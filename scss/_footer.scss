@@ -1,0 +1,96 @@
+/*footer*/
+
+@import "variables";
+
+footer{
+	background-color: $color4;
+
+	#lista-footer{
+		list-style: none;
+	}
+
+	.tienda{
+		display: block;
+		color: $color3;
+	}
+	.tienda:hover {
+		text-decoration: none;
+		color: $color2;
+	}
+}
+
+.contenedor-footer{
+	margin: 30px 30px 10px 30px;
+	display: flex;
+	flex-flow: row nowrap;
+	height: 15vh;
+}
+
+@mixin hijos {
+	width: 25%;
+	text-align: left;
+	margin: 12px 4px 0px 4px;
+}
+.hijos-footer{
+	@include hijos;	
+}
+
+
+#contacto{
+	li{
+		font-size: $letra;
+	}
+}
+#tienda{
+	margin-left: 55px;
+
+	a{
+		font-size: $letra;
+	}
+}
+#info{
+	margin-right: 55px;
+	p{
+		font-size:$letra;
+	}
+}
+#redes{
+	a{
+		font-size: $letra +0.8;
+		color: $color3;
+		margin-right: .8rem;
+	}
+	a:hover{
+		text-decoration: none;
+		color: $color2;
+	}
+}
+
+.copy{
+	text-align: center;
+	margin: 50px 0px 0px 0px;
+	background-color: $color-blanco!important;
+	
+	h5{
+		width: 10%;
+		font-family: $font-titulo;
+		padding-top: 20px;
+		font-size: $letra;
+		color: $color2;
+		margin-left: 30px;
+	}
+
+	#texto-copy{
+		width: 80%;
+		padding: 20px 0px 0px 40px;
+		text-align: center;
+	}
+	.arriba{
+		width: 10%;
+		text-decoration: none;
+		margin-right: 20px;
+		padding-top: 20px;
+		margin-right: 30px;
+	}
+}
+

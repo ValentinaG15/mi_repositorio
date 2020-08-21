@@ -1,0 +1,38 @@
+/*destacados*/
+
+#destacados{
+	padding-top: 30px;
+	width: 100%;
+	height: 65vh;
+	overflow: hidden;
+}
+
+#destacados-imagen1{
+	width: 50%;
+	margin: 10px 60px 0px 60px;
+	text-align: center;
+}
+
+#destacados-imagen2{
+	width: 50%;
+	margin: 0px 70px 0px 20px;
+	text-align: center;
+}
+
+#destacados-imagen1 img{
+	width: 240px;
+	height: 290px;
+	text-align: center;
+}
+#destacados-imagen2 img{
+	width: 340px;
+	height: 399px;
+	text-align: center;
+}
+#titulo-destacados{
+	margin-left: 80px !important;
+	box-sizing: border-box;
+	font-family: 'Arimo', sans-serif;
+	font-size: 23px;
+
+}

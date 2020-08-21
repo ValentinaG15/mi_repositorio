@@ -1,0 +1,571 @@
+/*banner principal*/
+.banner-p img {
+  padding-top: 102px;
+  width: 100%;
+}
+
+/*Banner 1 debajo de destacados*/
+#banner1 img {
+  width: 100%;
+  height: 105vh;
+  margin-bottom: 30px;
+}
+
+/*variables*/
+/*paleta colores*/
+/*Banner 2 con boton*/
+#banner2 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.lado-imagen {
+  width: 50%;
+  margin-right: 5px;
+  margin-left: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#imagen-banner2 {
+  width: 80vh;
+  height: 100vh;
+  -webkit-transform: skew(5deg);
+          transform: skew(5deg);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#lado-texto {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.text-banner2 {
+  width: 90%;
+  margin-right: 30px !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Muli', sans-serif;
+}
+
+#boton {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Arimo' sans-serif;
+  font-size: 15px;
+}
+
+#boton:hover {
+  width: 100%;
+  height: 45px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Arimo' sans-serif;
+  font-size: 15px;
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
+  background-color: #668359;
+  border-style: none;
+  border-radius: 10px;
+}
+
+/*destacados*/
+#destacados {
+  padding-top: 30px;
+  width: 100%;
+  height: 65vh;
+  overflow: hidden;
+}
+
+#destacados-imagen1 {
+  width: 50%;
+  margin: 10px 60px 0px 60px;
+  text-align: center;
+}
+
+#destacados-imagen2 {
+  width: 50%;
+  margin: 0px 70px 0px 20px;
+  text-align: center;
+}
+
+#destacados-imagen1 img {
+  width: 240px;
+  height: 290px;
+  text-align: center;
+}
+
+#destacados-imagen2 img {
+  width: 340px;
+  height: 399px;
+  text-align: center;
+}
+
+#titulo-destacados {
+  margin-left: 80px !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Arimo', sans-serif;
+  font-size: 23px;
+}
+
+/*footer*/
+/*variables*/
+/*paleta colores*/
+footer {
+  background-color: #F2F2F2;
+}
+
+footer #lista-footer {
+  list-style: none;
+}
+
+footer .tienda {
+  display: block;
+  color: #668359;
+}
+
+footer .tienda:hover {
+  text-decoration: none;
+  color: #222622;
+}
+
+.contenedor-footer {
+  margin: 30px 30px 10px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  height: 15vh;
+}
+
+.hijos-footer {
+  width: 25%;
+  text-align: left;
+  margin: 12px 4px 0px 4px;
+}
+
+#contacto li {
+  font-size: 1rem;
+}
+
+#tienda {
+  margin-left: 55px;
+}
+
+#tienda a {
+  font-size: 1rem;
+}
+
+#info {
+  margin-right: 55px;
+}
+
+#info p {
+  font-size: 1rem;
+}
+
+#redes a {
+  font-size: 1.8rem;
+  color: #668359;
+  margin-right: .8rem;
+}
+
+#redes a:hover {
+  text-decoration: none;
+  color: #222622;
+}
+
+.copy {
+  text-align: center;
+  margin: 50px 0px 0px 0px;
+  background-color: #ffffff !important;
+}
+
+.copy h5 {
+  width: 10%;
+  font-family: "Arimo", sans-serif;
+  padding-top: 20px;
+  font-size: 1rem;
+  color: #222622;
+  margin-left: 30px;
+}
+
+.copy #texto-copy {
+  width: 80%;
+  padding: 20px 0px 0px 40px;
+  text-align: center;
+}
+
+.copy .arriba {
+  width: 10%;
+  text-decoration: none;
+  margin-right: 20px;
+  padding-top: 20px;
+  margin-right: 30px;
+}
+
+* {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*nav o header*/
+/*variables*/
+/*paleta colores*/
+header {
+  width: 100%;
+  position: fixed;
+  height: 13vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-right: 0px !important;
+  z-index: 100;
+  background-color: #F2F2F2;
+  -webkit-box-shadow: 2px 1px 3px #BFBFBF;
+          box-shadow: 2px 1px 3px #BFBFBF;
+}
+
+/*#logo{
+		margin: 3px 0px 0px 30px;
+		box-sizing: border-box;
+		padding-top: 0px;
+		height: 3vh;
+	}*/
+div #logo {
+  /*margin-bottom: 30px;*/
+  margin: 3px 0px 0px 30px;
+  padding-top: 0px;
+  height: 3vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Arimo", sans-serif;
+  color: #668359;
+}
+
+/*icons*/
+.bi {
+  margin-right: 30px;
+  margin-top: 20px;
+  float: right;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #668359;
+}
+
+.bi:hover {
+  color: #222622;
+}
+
+.bi-search {
+  margin-top: 23px;
+}
+
+nav .navbar-custom {
+  width: 100%;
+  margin-right: 0px !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav .navbar-nav {
+  margin: 3px 30px 0px 0px;
+  width: 100%;
+  height: 1vh;
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+  font-family: "Muli", sans-serif;
+  text-align: center;
+  margin-left: 25%;
+}
+
+nav .navbar-nav .nav-item {
+  width: 8rem;
+  text-align: center;
+}
+
+nav .navbar-nav .nav-link {
+  color: #222622;
+  font-family: "Muli", sans-serif;
+}
+
+nav .navbar-nav .nav-link:hover {
+  background-color: rgba(79, 89, 80, 0.247);
+  -webkit-transition: ease 0.3s;
+  transition: ease 0.3s;
+}
+
+/*Remeras.html*/
+#padre-galeria {
+  padding-top: 150px !important;
+}
+
+.hijo-galeria img {
+  width: 100%;
+  height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#padre-galeria img:hover {
+  border: 5px solid #ffffff;
+}
+
+.col-lg-3 {
+  overflow: hidden !important;
+}
+
+.text-md-center {
+  font-size: 1rem;
+  font-family: 'Muli' sans-serif;
+  color: #6E7347;
+}
+
+/*estructura*/
+#contenedor-remeras {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+}
+
+#contenedor-remeras #galeria-remeras {
+  width: 80%;
+  margin: 20px 30px 0px 0px;
+}
+
+#contenedor-remeras aside {
+  height: auto;
+  background-color: #F2F2F2;
+  width: 20%;
+  margin: -35px 0px 0px 30px;
+}
+
+#contenedor-remeras aside a {
+  display: block;
+  margin-bottom: 11px;
+  color: #668359;
+}
+
+#contenedor-remeras aside a:hover {
+  color: #222622;
+  text-decoration: none;
+}
+
+div .migas {
+  width: 60%;
+  height: auto;
+  margin-top: 6rem;
+  display: inline-block;
+  margin-left: 30px;
+  padding-top: 3rem;
+  margin-bottom: 0px !important;
+}
+
+div li {
+  display: inline;
+  font-size: 1.15rem;
+  margin: 20px 0px 0px 0px;
+  padding: 10px 0px 10px 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+div #miga1 {
+  margin-left: 30px !important;
+}
+
+div #miga1 a {
+  color: #668359;
+}
+
+div #miga1 a:hover {
+  color: #222622;
+  text-decoration: none;
+}
+
+div #linea-migas {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 25px;
+}
+
+div #miga2 {
+  /*focus*/
+}
+
+div #miga2 a {
+  color: #222622;
+}
+
+div #miga2 a:hover {
+  color: #222622;
+  text-decoration: none;
+}
+
+#linea-categorias {
+  margin-top: 5px;
+}
+
+.boton-desplegable {
+  margin-left: 300px;
+  float: left;
+}
+
+.boton-desplegable button {
+  background-color: #668359;
+  color: #ffffff;
+}
+
+.boton-desplegable button:hover {
+  background-color: #4F5950;
+  color: #ffffff;
+}
+
+.boton-desplegable button:focus {
+  background-color: #4F5950 !important;
+  color: #ffffff;
+}
+
+/*variables*/
+/*paleta colores*/
+/*variables*/
+/*paleta colores*/
+#contenedor-sweaters {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+}
+
+#contenedor-sweaters #galeria-sweaters {
+  width: 80%;
+  margin: 20px 30px 0px 0px;
+}
+
+#contenedor-sweaters aside {
+  height: auto;
+  background-color: #F2F2F2;
+  width: 20%;
+  margin: -35px 0px 0px 30px;
+}
+
+#contenedor-sweaters aside a {
+  display: block;
+  margin-bottom: 11px;
+  color: #668359;
+}
+
+#contenedor-sweaters aside a:hover {
+  color: #222622;
+  text-decoration: none;
+}
+
+div .migas {
+  width: 60%;
+  height: auto;
+  margin-top: 6rem;
+  display: inline-block;
+  margin-left: 30px;
+  padding-top: 3rem;
+  margin-bottom: 0px !important;
+}
+
+div li {
+  display: inline;
+  font-size: 1.15rem;
+  margin: 20px 0px 0px 0px;
+  padding: 10px 0px 10px 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+div #miga1 {
+  margin-left: 30px !important;
+}
+
+div #miga1 a {
+  color: #668359;
+}
+
+div #miga1 a:hover {
+  color: #222622;
+  text-decoration: none;
+}
+
+div #linea-migas {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 25px;
+}
+
+div #miga2 {
+  /*focus*/
+}
+
+div #miga2 a {
+  color: #222622;
+}
+
+div #miga2 a:hover {
+  color: #222622;
+  text-decoration: none;
+}
+
+#linea-categorias {
+  margin-top: 5px;
+}
+
+.boton-desplegable {
+  margin-left: 300px;
+  float: left;
+}
+
+.boton-desplegable button {
+  background-color: #668359;
+  color: #ffffff;
+}
+
+.boton-desplegable button:hover {
+  background-color: #4F5950;
+  color: #ffffff;
+}
+
+.boton-desplegable button:focus {
+  background-color: #4F5950 !important;
+  color: #ffffff;
+}
+/*# sourceMappingURL=estilos.css.map */
