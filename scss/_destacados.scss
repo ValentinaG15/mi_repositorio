@@ -36,3 +36,18 @@
 	font-size: 23px;
 
 }
+
+
+.carousel-destacados{
+	width: 100%;
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+#images-carousel{
+
+	li{
+		width: 20px;
+		height: 40px;
+	}
+}

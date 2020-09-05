@@ -129,6 +129,22 @@
   font-size: 23px;
 }
 
+.carousel-destacados {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+}
+
+#images-carousel li {
+  width: 20px;
+  height: 40px;
+}
+
 /*footer*/
 /*variables*/
 /*paleta colores*/
