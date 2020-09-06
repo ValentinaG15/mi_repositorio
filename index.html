@@ -11,7 +11,8 @@
 	<!-- CSS only -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-	
+	<!-- CSS flickity -->
+	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 </head>
 <body>
 	<header>
@@ -63,65 +64,20 @@
 
 
 <p id="titulo-destacados" class="text-md-left  mt-5">Productos destacados</p> 
-<div class="d-inline-flex justify-content-center container-fluid" id="destacados">	
-<!--carouserl 1-->	
-	<div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel">
-		 <ol class="carousel-indicators">
-		    <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
-		    <li data-target="#carouselExampleControls" data-slide-to="1"></li>
-		    <li data-target="#carouselExampleControls" data-slide-to="2"></li>
-		  </ol>
-  		<div class="carousel-inner">
-	  	  	<div class="carousel-item active" id="destacados-imagen1">
-	        	<img src="Images/sweater.jpg" alt="sweater" class="d-block w-100">
-	    	</div>
-	    	<div class="carousel-item" id="destacados-imagen1">
-	      		<img src="Images/7.jpeg" class="d-block w-100" alt="sweater">
-	    	</div>
-	    	<div class="carousel-item" id="destacados-imagen1">
-	      		<img src="Images/3.jpeg" class="d-block w-100" alt="sweater">
-	    	</div>
-  		</div>
-	</div>
-		<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-	    <span class="sr-only">Previous</span>
-	  	</a>
-	  	<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-	    <span class="sr-only">Next</span>
-	  </a>
-		
-	  		
-		
-<!--carouserl 2-->
-<div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel">
-		<div class="carousel-inner">
-	    		<div class="carousel-item active" id="destacados-imagen2">
-	        		<img src="Images/sweater.jpg" class="d-block w-100" alt="banner">
-	    		</div>
-	    		<div class="carousel-item" id="destacados-imagen2">
-	      			<img src="Images/7.jpeg" class="d-block w-100" alt="...">
-	    		</div>
-	    		<div class="carousel-item" id="destacados-imagen2">
-	      			<img src="Images/3.jpeg" class="d-block w-100" alt="...">
-	    		</div>
-  			</div>
-		
-	</div>	
-</div>	
-			
+<div id="destacados">	
 
-	<!--<div class="d-inline-flex justify-content-center" id="destacados">
-		<div id="destacados-imagen1">
-			<h3 id="titulo-destacados">Productos destacados</h3> 
-			<img  src="Images/sweater.jpg" alt="sweater" >
-		</div>
-		<div id="destacados-imagen2">
-			<img  src="Images/sweater1.jpg" alt="sweater">
-		</div>
-		
-	</div>-->
+	<div class="carousel"
+	data-flickity='{ "imagesLoaded": true, "percentPosition": false }'>
+	<img src="Images/1.png" alt="campera de cuero" />
+	<img src="Images/2.png" alt="camisa" />
+	<img src="Images/3.png" alt="look-out" />
+	<img src="Images/1.png" alt="One World Trade" />
+	<img src="Images/2.png" alt="drizzle" />
+	<img src="Images/3.png" alt="cat nose" />
+  </div>
+  
+			
+</div>
 
 	
 	<div id="banner1">
@@ -197,5 +153,7 @@
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<!-- JavaScript flickity -->
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 </html>
