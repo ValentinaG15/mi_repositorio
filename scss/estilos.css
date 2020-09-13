@@ -815,12 +815,40 @@ div #miga2 a:hover {
 
 /*variables*/
 /*paleta colores*/
-form {
-  padding: 120px 110px 40px 110px;
+#form-contenedor {
+  /*container*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  padding: 110px 110px 40px 110px;
 }
 
-.form-group {
-  font-family: "Arimo", sans-serif;
+#imagen-formulario {
+  width: 60%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding-left: 10px;
+}
+
+#imagen-formulario #imagen-f {
+  width: 80%;
+  height: 105vh;
+}
+
+#formulario {
+  width: 40%;
+  margin-top: 100px;
+  padding-right: 30px;
+}
+
+#formulario h2 {
+  width: 100%;
 }
 
 .form-control {
@@ -841,6 +869,10 @@ form {
   font-size: 3rem;
 }
 
+/*.form-control:focus {
+    border-color: $color1;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+  }*/
 /*Preguntas frecuentes*/
 /*variables*/
 /*paleta colores*/
@@ -864,5 +896,87 @@ form {
   margin: 60px 130px 40px 130px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+/*variables*/
+/*paleta colores*/
+/*variables*/
+/*paleta colores*/
+#mayoristas-contenedor {
+  /*container*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  padding: 110px 60px 40px 60px;
+}
+
+.container-img-cr {
+  width: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container-img-cr .imagen-carousel {
+  width: 38rem;
+  height: 195vh;
+}
+
+#formulario-m {
+  width: 50%;
+  margin-top: 100px;
+  padding-right: 30px;
+  padding-left: 15px;
+}
+
+#formulario-m h2 {
+  width: 100%;
+  font-family: "Arimo", sans-serif;
+}
+
+#formulario-m #parrafo-mayoristas {
+  text-align: justify;
+  font-family: "Muli", sans-serif;
+}
+
+.form-control {
+  font-family: "Muli", sans-serif;
+  margin-bottom: 10px !important;
+}
+
+.boton-submit {
+  width: 80px;
+  height: 45px;
+  background-color: #668359;
+  border-radius: .3rem;
+  font-family: "Arimo", sans-serif;
+}
+
+.enviar-text-boton {
+  text-align: center;
+  font-size: 3rem;
+}
+
+/*.form-control:focus {
+    border-color: $color1;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+  }*/
+.chek {
+  padding-left: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.chek .form-check-input {
+  color: #BFBFBF;
+}
+
+.chek .form-check-label {
+  color: gray;
 }
 /*# sourceMappingURL=estilos.css.map */
