@@ -1,0 +1,110 @@
+/*footer 490*/
+
+@media screen and (max-width: 690px){
+	footer h3{
+		font-size: 1.5em;
+	}
+}
+
+
+
+@media screen and (max-width: 490px){
+	.d-flex{
+		margin: 30px 24px 0px 24px;
+		width: 100%;;
+		display: flex;
+		flex-flow: row;
+		justify-content: space-evenly;
+		box-sizing: border-box;
+
+
+	}
+}
+@media screen and (max-width: 490px){
+	#info{
+		display: none;
+		
+	}
+}
+@media screen and (max-width: 490px){
+	.hijos-footer{
+		width: 33%;
+		margin: 0px 6px 0px 12px;
+		box-sizing: border-box;
+		
+	}
+}
+@media screen and (max-width: 690px){
+	.hijos-footer{
+		width: 33%;
+		margin: 0px 6px 0px 12px;
+		box-sizing: border-box;
+	}
+}
+
+@media screen and (max-width: 490px){
+	.tienda{
+		margin-right: 18px;
+		
+	}
+}
+
+@media screen and (max-width: 490px){
+	#parrafo{
+		padding-top: .5rem;	
+	}
+}
+
+@media screen and (max-width: 490px){
+	.copy{
+		width: 100%;
+		display: flex;
+		flex-flow: row;
+		
+	}
+}
+@media screen and (max-width: 490px){
+	#texto-copy{
+		width: 70%;
+		
+	}
+}
+@media screen and (max-width: 490px){
+	.arriba{
+		width: 30%;
+		margin-right: 10px;
+		box-sizing: border-box;
+		
+	}
+}
+
+
+
+/*400
+
+
+@media screen and (max-width: 360px){
+	#destacados{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+}
+
+@media screen and (max-width: 360px){
+	#destacados-imagen1{
+		width: 100%;
+		height: 30vh;
+	}
+}
+
+@media screen and (max-width: 360px){
+	#destacados-imagen2{
+		width: 100%;
+		height: 30vh;
+		margin-top: 1rem;
+	}
+}
+*/

@@ -79,6 +79,9 @@ header{
 					color: $color2;
 					font-family: $font-parrafo;
 					}	
+					a{
+						font-size: 1rem;
+					}
 				.nav-link:hover {
 				background-color: rgba($color1, 0.247);
 				transition: ease 0.3s;

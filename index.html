@@ -17,7 +17,7 @@
 <body>
 	<header>
 		<a id="arriba"></a>
-	
+	<div class="contenedor">
 		<div><a class="navbar-brand justify-content-center" id="logo" href="index.html"><h1 align="left" class="title">Necessary</h1></a>
 
 			<svg width="1.3em" height="1.3em" viewBox="0 0 16 16" class="bi bi-bag-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -32,27 +32,28 @@
 			 <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
 			<path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
 			</svg>
-		</div>
-		
-		<nav class="navbar navbar-expand-xl navbar-custom">
-			
-			<ul class="navbar-nav collapse navbar-collapse" id="barra">
-				<li class="nav-item"><a class="nav-link" href="newin.html" title="New-In">New-In</a></li>
-				<!--Dropdwn-->
-				<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="tienda.html" id="navbardrop" data-toggle="dropdown" title="Tienda">Tienda</a>
-					<div class="dropdown-menu">
-					<a class="dropdown-item" href="remeras.html">Remeras</a>
-					<a class="dropdown-item" href="sweaters.html">Sweaters</a>
-					<a  class="dropdown-item"href="pantalones.html">Pantalones</a>
-					<a class="dropdown-item" href="camperas.html">Camperas</a>
-					</div>
-				</li>
-				<li class="nav-item"><a class="nav-link" href="mayoristas.html" title="Mayoristas">Mayoristas</a></li>
-				<li class="nav-item"><a class="nav-link" href="faqs.html" title="FAQS">FAQS</a></li>
-				<li class="nav-item"><a class="nav-link" href="contacto.html" title="Contacto">Contacto</a></li>
-			</ul>
-		</nav>
 
+			<nav class="navbar navbar-expand-xl navbar-custom">
+				
+				<ul class="navbar-nav collapse navbar-collapse" id="barra">
+					<li class="nav-item"><a class="nav-link" href="newin.html" title="New-In">New-In</a></li>
+					<!--Dropdwn-->
+					<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="tienda.html" id="navbardrop" data-toggle="dropdown" title="Tienda">Tienda</a>
+						<div class="dropdown-menu">
+						<a class="dropdown-item" href="remeras.html">Remeras</a>
+						<a class="dropdown-item" href="sweaters.html">Sweaters</a>
+						<a  class="dropdown-item"href="pantalones.html">Pantalones</a>
+						<a class="dropdown-item" href="camperas.html">Camperas</a>
+						</div>
+					</li>
+					<li class="nav-item"><a class="nav-link" href="mayoristas.html" title="Mayoristas">Mayoristas</a></li>
+					<li class="nav-item"><a class="nav-link" href="faqs.html" title="FAQS">FAQS</a></li>
+					<li class="nav-item"><a class="nav-link" href="contacto.html" title="Contacto">Contacto</a></li>
+				</ul>
+			</nav>
+		</div>		
+		
+	</div>
 		
 	</header><!-- /header -->
 
@@ -80,18 +81,19 @@
 </div>
 
 	
-	<div id="banner1">
+	<div id="banner1" class="img-fluid">
 		<img id="imagen-banner1" src="Images/main1.jpg" alt="Banner1">
 	</div>
 			
 	
 	<div id="banner2" class="d-inline-flex align-items-center">
-		<div class="lado-imagen">
+		<div class="lado-imagen img-fluid">
 		<img id="imagen-banner2" src="Images/banner2.jpg" alt="Banner2"> 
 		</div>
 		<div id="lado-texto">
 			<div class="text-banner2 text-justify">
-			<h4><strong>Necessary Collection.</strong><h5 class="mt-3">ahora puedes tener toda la coleccion 
+			<h4><strong>Necessary Collection.</strong>
+				<h5 class="mt-3">ahora puedes tener toda la coleccion 
 				de nuestros nuevos accesorios #necessary.</h5>
 			</h4>
 			</div>

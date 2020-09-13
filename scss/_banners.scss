@@ -1,0 +1,81 @@
+/*banner1*/
+@media screen and (max-width: 720px){
+	#imagen-banner1 {
+		padding-top: 10px;
+		 width: 100% \9;
+		height: 100%;
+		object-fit: cover;
+	}
+}
+
+
+
+@media screen and (max-width: 720px){
+	/*banner 2 con texto*/
+.img-fluid{
+	width: 100%;
+	height: auto;
+}
+	#lado-texto {
+		width: 50%;
+		height: auto;
+
+	}
+	h5{
+		width: 20px;
+	}
+}
+@media screen and (max-width: 720px){
+	#imagen-banner2 {
+		width: 40%;
+		height: auto;
+		object-fit: cover;
+	
+	}
+}
+
+/*1080*/
+@media screen and (max-width: 1080px){
+	.lado-imagen {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 1080px){
+	#lado-texto {
+		width: 50%;
+		height: auto;
+		
+	}
+}
+@media screen and (max-width: 1080px){
+	#imagen-banner2 {
+		width: 100%;
+		height: auto;
+	
+	}
+}
+
+
+/*400*/
+@media screen and (max-width: 490px){
+	.lado-imagen {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 490px){
+	#lado-texto {
+		width: 50%;
+		height: auto;
+	
+		
+	}
+}
+@media screen and (max-width: 490px){
+	#imagen-banner2 {
+		width: 100%;
+		height: auto;
+	
+	}
+}

@@ -1,0 +1,37 @@
+/*destacados*/
+
+@media (max-width: 720px){
+	#titulo-destacados{
+		font-size: 1.5rem;
+		text-align: center;
+		
+	}
+}
+
+@media screen and (max-width: 720px){
+	#destacados{
+		width: 100%;
+		height: 80vh;
+		display: flex;
+		flex-flow: column wrap;
+	}
+}
+
+
+@media screen and (max-width: 720px){
+	#destacados-imagen1{
+		width: 10rem;
+		height: auto;
+		margin-top: 0px!important;
+	}
+}
+
+@media screen and (max-width: 720px){
+	#destacados-imagen2{
+		width: 100%;
+		height: auto;
+		
+		
+		margin-top: 0px!important;
+	}
+}
