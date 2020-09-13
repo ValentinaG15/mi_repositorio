@@ -1101,37 +1101,105 @@ div #miga2 a:hover {
 }
 
 /*banner1*/
-@media screen and (max-width: 720px) {
+/*360*/
+@media screen and (max-width: 360px) {
+  #banner1 {
+    width: 100%;
+    height: auto;
+  }
   #imagen-banner1 {
-    padding-top: 10px;
-    width: 100% \9;
-    height: 100%;
+    width: 100%;
+    height: auto;
     -o-object-fit: cover;
        object-fit: cover;
   }
 }
 
-@media screen and (max-width: 720px) {
-  /*banner 2 con texto*/
-  .img-fluid {
+/*480*/
+@media screen and (max-width: 480px) {
+  #banner1 {
     width: 100%;
     height: auto;
   }
-  #lado-texto {
-    width: 50%;
+  #imagen-banner1 {
+    width: 100%;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+/*720*/
+@media screen and (max-width: 720px) {
+  #banner1 {
+    width: 100%;
     height: auto;
   }
-  h5 {
-    width: 20px;
+  #imagen-banner1 {
+    width: 100%;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+/*1080*/
+@media screen and (max-width: 1080px) {
+  #banner1 {
+    width: 100%;
+    height: auto;
+  }
+  #imagen-banner1 {
+    width: 100%;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+/*banner2-texto*/
+@media screen and (max-width: 720px) {
+  #banner2 {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+  }
+  .lado-imagen {
+    width: 50%;
+  }
+  #lado-texto {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
 @media screen and (max-width: 720px) {
   #imagen-banner2 {
-    width: 40%;
-    height: auto;
+    width: 80vh;
+    height: 100vh;
     -o-object-fit: cover;
        object-fit: cover;
+  }
+  .text-banner2 {
+    width: 90%;
+    margin-right: 30px !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: 'Muli', sans-serif;
   }
 }
 
@@ -1200,7 +1268,7 @@ div #miga2 a:hover {
             justify-content: space-evenly;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    margin-left: 0px !important;
+    margin: 0px !important;
   }
 }
 
@@ -1225,10 +1293,14 @@ div #miga2 a:hover {
     font-size: 0.7rem;
     width: 100%;
     padding-left: 0px !important;
-    margin: -3px !important;
+    margin-left: -3px !important;
   }
   #info {
     width: 100%;
+  }
+  .fab {
+    width: 2rem;
+    height: 2rem;
   }
 }
 
@@ -1261,7 +1333,6 @@ div #miga2 a:hover {
 @media screen and (max-width: 388px) {
   .arriba {
     padding-right: 0px !important;
-    margin-left: 1px !important;
   }
 }
 
@@ -1274,7 +1345,7 @@ div #miga2 a:hover {
 
 @media screen and (max-width: 490px) {
   .d-flex {
-    margin: 30px 24px 0px 24px;
+    padding: 30px 24px 0px 24px;
     width: 100%;
     height: auto;
     display: -webkit-box;
@@ -1344,8 +1415,9 @@ div #miga2 a:hover {
 
 @media screen and (max-width: 490px) {
   #texto-copy {
-    width: 70%;
-    font-size: 0.6rem;
+    width: 50%;
+    font-size: 0.5rem;
+    text-align: left;
   }
 }
 
@@ -1417,14 +1489,17 @@ div #miga2 a:hover {
     padding-left: 0px !important;
     width: 20%;
     font-size: 0.5rem;
+    text-align: left;
+    margin-left: 0px !important;
   }
 }
 
 @media screen and (max-width: 760px) {
   #texto-copy {
     width: 60%;
-    text-align: center;
     font-size: 1rem;
+    text-align: left;
+    margin-left: 0px !important;
   }
 }
 
@@ -1453,6 +1528,7 @@ div #miga2 a:hover {
             box-sizing: border-box;
     margin-left: 0px !important;
     padding: 0px 30px 0px 30px;
+    margin: 0px !important;
   }
 }
 

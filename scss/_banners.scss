@@ -1,36 +1,88 @@
 /*banner1*/
-@media screen and (max-width: 720px){
-	#imagen-banner1 {
-		padding-top: 10px;
-		 width: 100% \9;
-		height: 100%;
-		object-fit: cover;
-	}
-}
-
-
-
-@media screen and (max-width: 720px){
-	/*banner 2 con texto*/
-.img-fluid{
-	width: 100%;
-	height: auto;
-}
-	#lado-texto {
-		width: 50%;
+/*360*/
+@media screen and (max-width: 360px){
+	#banner1{
+		width: 100%;
 		height: auto;
-
-	}
-	h5{
-		width: 20px;
-	}
-}
-@media screen and (max-width: 720px){
-	#imagen-banner2 {
-		width: 40%;
-		height: auto;
-		object-fit: cover;
 	
+	}
+	#imagen-banner1{
+		width: 100%;
+		height: auto;
+		object-fit: cover;
+	}
+}
+/*480*/
+@media screen and (max-width: 480px){
+	#banner1{
+		width: 100%;
+		height: auto;
+	
+	}
+	#imagen-banner1{
+		width: 100%;
+		height: auto;
+		object-fit: cover;
+	}
+}
+/*720*/
+@media screen and (max-width: 720px){
+	#banner1{
+		width: 100%;
+		height: auto;
+	
+	}
+	#imagen-banner1{
+		width: 100%;
+		height: auto;
+		object-fit: cover;
+	}
+}
+/*1080*/
+@media screen and (max-width: 1080px){
+	#banner1{
+		width: 100%;
+		height: auto;
+	
+	}
+	#imagen-banner1{
+		width: 100%;
+		height: auto;
+		object-fit: cover;
+	}
+}
+
+/*banner2-texto*/
+@media screen and (max-width: 720px){
+	#banner2{
+		width: 100%;
+		display: flex;
+		flex-flow: row nowrap;
+
+	}
+	.lado-imagen{
+		width: 50%;
+		
+	}
+	#lado-texto{
+		width: 50%;
+		display: flex;
+		flex-flow: column wrap;
+		align-items: center;
+	}
+}
+
+@media screen and (max-width: 720px){
+	#imagen-banner2{
+		width: 80vh;
+		height: 100vh;
+		object-fit: cover;
+	}
+	.text-banner2{
+		width: 90%;
+		margin-right: 30px!important;
+		box-sizing: border-box;
+		font-family: 'Muli', sans-serif;
 	}
 }
 
