@@ -233,7 +233,7 @@ footer .tienda:hover {
   font-family: "Arimo", sans-serif;
   padding-top: 20px;
   font-size: 1rem;
-  color: #222622;
+  color: #BFBFBF;
   margin-left: 30px;
 }
 
@@ -1177,10 +1177,98 @@ div #miga2 a:hover {
   }
 }
 
+/*388*/
+@media screen and (max-width: 388px) {
+  footer h3 {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 388px) {
+  .d-flex {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin-left: 0px !important;
+  }
+}
+
+@media screen and (max-width: 388px) {
+  #info {
+    display: none;
+  }
+  #tienda {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 388px) {
+  .hijos-footer {
+    width: 50%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 388px) {
+  #parrafo {
+    font-size: 0.7rem;
+    width: 100%;
+    padding-left: 0px !important;
+    margin: -3px !important;
+  }
+  #info {
+    width: 100%;
+  }
+}
+
+/*design*/
+@media screen and (max-width: 388px) {
+  .copy {
+    padding-top: 2px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 388px) {
+  #design {
+    padding-left: 0px !important;
+    width: 25%;
+    font-size: 0.3rem;
+    margin-left: -3px !important;
+  }
+}
+
+@media screen and (max-width: 388px) {
+  #texto-copy {
+    width: 50%;
+    text-align: center;
+    font-size: 0.3rem;
+    margin-left: -3px !important;
+  }
+}
+
+@media screen and (max-width: 388px) {
+  .arriba {
+    padding-right: 0px !important;
+    margin-left: 1px !important;
+  }
+}
+
 /*footer 490*/
 @media screen and (max-width: 690px) {
   footer h3 {
-    font-size: 1.5em;
+    font-size: 1.1rem;
   }
 }
 
@@ -1188,6 +1276,7 @@ div #miga2 a:hover {
   .d-flex {
     margin: 30px 24px 0px 24px;
     width: 100%;
+    height: auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1212,16 +1301,7 @@ div #miga2 a:hover {
 @media screen and (max-width: 490px) {
   .hijos-footer {
     width: 33%;
-    margin: 0px 6px 0px 12px;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-  }
-}
-
-@media screen and (max-width: 690px) {
-  .hijos-footer {
-    width: 33%;
-    margin: 0px 6px 0px 12px;
+    padding: 0px 0px 0px 0px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
@@ -1229,16 +1309,19 @@ div #miga2 a:hover {
 
 @media screen and (max-width: 490px) {
   .tienda {
-    margin-right: 18px;
+    margin-right: 30px;
   }
 }
 
 @media screen and (max-width: 490px) {
   #parrafo {
     padding-top: .5rem;
+    font-size: 0.8rem;
+    width: 33%;
   }
 }
 
+/*design Valen*/
 @media screen and (max-width: 490px) {
   .copy {
     width: 100%;
@@ -1253,17 +1336,164 @@ div #miga2 a:hover {
 }
 
 @media screen and (max-width: 490px) {
+  #design {
+    width: 15%;
+    font-size: 0.4rem;
+  }
+}
+
+@media screen and (max-width: 490px) {
   #texto-copy {
     width: 70%;
+    font-size: 0.6rem;
   }
 }
 
 @media screen and (max-width: 490px) {
   .arriba {
-    width: 30%;
-    margin-right: 10px;
+    width: 15%;
+    padding-right: 1px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
+  }
+}
+
+/*760*/
+@media screen and (max-width: 760px) {
+  footer h3 {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .d-flex {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin-left: 0px !important;
+    padding: 0px 30px 0px 30px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  #info {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .hijos-footer {
+    width: 39%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  #parrafo {
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .copy {
+    padding-top: 2px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  #design {
+    padding-left: 0px !important;
+    width: 20%;
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  #texto-copy {
+    width: 60%;
+    text-align: center;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .arriba {
+    width: 20%;
+  }
+}
+
+/*1080*/
+@media screen and (max-width: 1080px) {
+  .d-flex {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin-left: 0px !important;
+    padding: 0px 30px 0px 30px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .hijos-footer {
+    width: 25%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  #parrafo {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .copy {
+    padding-top: 2px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  #design {
+    padding-left: 0px !important;
+    width: 25%;
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  #texto-copy {
+    width: 50%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .arriba {
+    width: 25%;
   }
 }
 
