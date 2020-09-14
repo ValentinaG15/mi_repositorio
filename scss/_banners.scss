@@ -4,6 +4,7 @@
 	#banner1{
 		width: 100%;
 		height: auto;
+		padding-top: 0px!important;
 	
 	}
 	#imagen-banner1{
@@ -43,6 +44,7 @@
 	#banner1{
 		width: 100%;
 		height: auto;
+		padding-top: 0px!important;
 	
 	}
 	#imagen-banner1{
@@ -51,6 +53,7 @@
 		object-fit: cover;
 	}
 }
+
 
 /*banner2-texto*/
 @media screen and (max-width: 720px){
@@ -75,59 +78,125 @@
 @media screen and (max-width: 720px){
 	#imagen-banner2{
 		width: 80vh;
-		height: 100vh;
+		height: 110vh;
 		object-fit: cover;
 	}
 	.text-banner2{
-		width: 90%;
-		margin-right: 30px!important;
+		width: 50%;
+		padding-left: 0px;
 		box-sizing: border-box;
 		font-family: 'Muli', sans-serif;
 	}
-}
-
-/*1080*/
-@media screen and (max-width: 1080px){
-	.lado-imagen {
-		width: 50%;
+	#boton{
+		width: 100%;
+		text-align: center;
+		margin-top: 20px;
+		font-family: 'Arimo' sans-serif;
+		font-size: 15px;
 	}
+	
 }
+/*510*/
 
-@media screen and (max-width: 1080px){
-	#lado-texto {
+@media screen and (max-width: 510px){
+	#banner2{
+		width: 100%;
+		display: flex;
+		flex-flow: row nowrap;
+		padding-bottom: 30px;
+
+	}
+	.lado-imagen{
 		width: 50%;
-		height: auto;
+		transform: rotate(0deg);
 		
 	}
-}
-@media screen and (max-width: 1080px){
-	#imagen-banner2 {
-		width: 100%;
-		height: auto;
+	#lado-texto{
+		width: 50%;
+		display: flex;
+		flex-flow: column wrap;
+		align-items: center;
 	
 	}
 }
 
-
-/*400*/
-@media screen and (max-width: 490px){
-	.lado-imagen {
-		width: 50%;
-	}
-}
-
-@media screen and (max-width: 490px){
-	#lado-texto {
-		width: 50%;
-		height: auto;
-	
+@media screen and (max-width: 510px){
+	#imagen-banner2{
+		width: 60vh;
+		height: 90vh;
+		object-fit: cover;
 		
 	}
-}
-@media screen and (max-width: 490px){
-	#imagen-banner2 {
+	.text-banner2{
+		width: 50%;
+		padding-left: 3px;
+		box-sizing: border-box;
+		font-family: 'Muli', sans-serif;
+		text-align: left;
+		font-size: 1.2rem;
+	}
+	#boton{
 		width: 100%;
-		height: auto;
+		text-align: center;
+		margin-top: 12px;
+		font-family: 'Arimo' sans-serif;
+		font-size: 1.4rem;
+		padding-left: 5px;
+	}
 	
+}
+
+/*450*/
+
+@media screen and (max-width: 450px){
+	#banner2{
+		width: 100%;
+		display: flex;
+		flex-flow: row nowrap;
+		padding-bottom: 30px;
+
+	}
+	.lado-imagen{
+		display: none;
+		
+	}
+	#lado-texto{
+		width: 100%;
+		display: flex;
+		flex-flow: column wrap;
+		align-items: center;
+	}
+	
+}
+
+@media screen and (max-width: 450px){
+	#imagen-banner2{
+		display: none;
+		
+	}
+	.text-banner2{
+		width: 100%;
+		padding-left: 3px;
+		box-sizing: border-box;
+		font-family: 'Muli', sans-serif;
+		text-align: left;
+		font-size: 1rem;
+	}
+	#boton{
+		width: 100%;
+		text-align: center;
+		margin-top: 12px;
+		font-family: 'Arimo' sans-serif;
+		font-size: 1.2rem;
+		padding-left: 5px;
+	}
+	
+}
+
+@media screen and (max-width:380px){
+	#destacados{
+		margin-bottom: 0px!important;
 	}
 }
+
+
